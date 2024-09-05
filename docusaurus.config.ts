@@ -26,7 +26,18 @@ const config: Config = {
   // may want to replace "en" with "zh-Hans".
   i18n: {
     defaultLocale: 'en',
-    locales: ['en'],
+    locales: ['en', 'fr', 'es'],
+    localeConfigs: {
+      en: {
+        htmlLang: 'en-GB',
+      },
+      fr: {
+        htmlLang: 'fr-FR',
+      },
+      es: {
+        htmlLang: 'es-ES',
+      },
+    },
   },
 
   presets: [
@@ -79,6 +90,10 @@ const config: Config = {
           label: 'Tutorial',
         },
         {to: '/blog', label: 'Blog', position: 'left'},
+        {
+          type: 'localeDropdown',
+          position: 'left',
+        },
         {
           href: 'https://github.com/facebook/docusaurus',
           label: 'GitHub',
