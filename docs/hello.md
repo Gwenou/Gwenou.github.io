@@ -1,5 +1,5 @@
 ---
-sidebar_label: 'Hi!'
+sidebar_label: 'Hi2!'
 sidebar_position: 3
 ---
 # Hello
