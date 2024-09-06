@@ -55,7 +55,7 @@ const config: Config = {
               current: {
                 label: '2.0.0',
                 path: '2.0.0',
-              },
+              }
             },
         },
         blog: {
@@ -107,7 +107,7 @@ const config: Config = {
           position: 'right',
         },
         {
-          href: 'https://github.com/facebook/docusaurus',
+          href: 'https://github.com/Gwenou',
           label: 'GitHub',
           position: 'right',
         },
@@ -121,7 +121,7 @@ const config: Config = {
           items: [
             {
               label: 'Tutorial',
-              to: '/docs/intro',
+              to: '/docs/2.0.0/intro',
             },
           ],
         },
